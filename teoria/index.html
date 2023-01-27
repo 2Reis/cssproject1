@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teoria do CSS para fixar</title>
+    <!-- <style>
+        body {
+            padding: 20px;
+        }
+        p {
+            color: red;
+        }
+    </style> -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+     <p style="color: blue;">Paragrafo Inline</p>
+     <p>Paragrafo Internal</p>
+     <p>Paragrafo External</p>     
+     <!-- classes e ids  -->
+     <h1 id="titulo-principal">Titulo da pagina</h1>
+     <p class="meu-paragrafo">Paragrafo da pagina1</p>
+     <p class="meu-paragrafo">Paragrafo da pagina2</p>
+     <p class="meu-paragrafo">Paragrafo da pagina3</p>
+     <!-- cores -->
+     <p class="nome-da-cor">Ceu</p>
+     <p class="hexa">Hexadecimal</p>
+     <p class="rgb">RGB</p>
+
+     <!-- fontes -->
+     <p class="serifada">Fonte serifada</p>
+     <p class="sem-serifa">Fonte sem serifa</p>
+     <p class="monoespacada">Mono espaçada</p>
+    
+     <!-- fontes size e weight -->
+    <p class="fonte-grande">Fonte grande</p>
+    <p class="fonte-pequena">Fonte pequena</p>
+    <p class="peso-fonte">Fonte em negrito</p>    
+    
+    <!-- box model -->
+    <div class="box-model">
+        <p>Box model!</p>
+    </div>
+
+    <!-- propriedades de texto -->
+    <p class="alinhamento">Texto ao centro</p>
+    <p class="transformar-maiuscula">texto todo maiusculo</p>
+    <p class="transformar-minuscula">TEXTO TODO MINUSCULO</p>
+
+    <!-- espaçamento de linhas e textos -->
+    <p class="espacamento-texto">Texto com espaçamento entre linhas e textos</p>
+    <p class="espacamento-texto">Texto com espaçamento entre linhas e textos</p>
+    
+    <!-- links -->
+    <div>
+        <a href="#" class="decoration">meu link 1</a>
+    </div>
+    <div>
+        <a href="https://www.google.com.br" class="visitado">meu link 2</a>
+    </div>
+    <div>
+        <a href="#" class="estilo-hover">meu link 3</a>
+    </div>
+
+    <!-- link em button -->
+    <div>
+        <a href="#" class="btn">Enviar</a>
+    </div>
+
+    <!-- listas -->
+    <ul>
+        <li>Listas</li>
+        <li>Com</li>
+        <li>Bullets</li>
+    </ul>
+    <ul class="sem-estilo">
+        <li>Listas</li>
+        <li>Sem</li>
+        <li>Bullets</li>
+    </ul>
+    
+    <!-- display -->
+    <div class="inline"></div>
+    <div class="inline"></div>
+    <span class="bloco">Test</span>
+    <span class="bloco">Test 2</span>
+    <div class="inline hidden"></div>
+
+    <!-- position fixed -->
+    <div class="elemento-fixo">Este elemento vai ficar fixo na tela</div>
+
+    <!-- First Child -->
+    <div class="primeiro-elemento">
+        <p>Este terá estilo</p>
+        <p>Este Não</p>
+        <p>Este Não</p>
+        <p>Este Não</p>
+    </div>
+
+    <!-- pseudo elemento -->
+    <p class="primeira-letra">Esta frase começa com uma letra diferente</p>
+
+    <!-- Especificidade -->
+    <h2>Meu titulo</h2>
+    <h2 class="titulo">Meu título</h2>
+    <h2 class="titulo" id="meu-titulo-preferido">Meu título</h2>
+
+
+</body>
+</html>
